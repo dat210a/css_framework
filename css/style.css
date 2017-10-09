@@ -1,0 +1,167 @@
+/* Custom Stylesheet */
+
+
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+    color: #444;
+}
+
+p {
+    line-height: 2rem;
+}
+
+.button-collapse {
+    color: #26a69a;
+}
+
+.parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+footer.page-footer {
+    margin: 0;
+}
+
+
+/*Temporary*/
+
+.placeholderimg {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*Implemented by user*/
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.fullwidth-container {
+    width: 100% !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding: 0px !important;
+}
+
+.fullscreen-container {
+    height: 100vh !important;
+    width: 100% !important;
+    margin: 0px !important;
+    max-width: 100% !important;
+}
+
+.bottombar {
+    position: absolute !important;
+    bottom: 0px !important;
+    height: 15vh !important;
+    z-index: 1 !important;
+}
+
+.bottombar .row .bottombar .row .col {
+    margin: 0px;
+    padding: 0px;
+}
+
+.sidebar {
+    position: absolute !important;
+    height: 100% !important;
+    right: 0px !important;
+    z-index: 2 !important;
+}
+
+.timelinescreen {
+    height: 85vh !important;
+    padding: 0px !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .centerblock {
+
+        position: absolute;
+        width: 85%;
+        left: 7.5%;
+        top: 50%;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .centerblock {
+
+        position: absolute;
+        width: 70%;
+        left: 15%;
+        top: 50%;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .centerblock {
+        position: absolute;
+        width: 35%;
+        left: 32.5%;
+        top: 50%;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+}
