@@ -68,6 +68,11 @@ footer.page-footer {
     height: 100%;
 }
 
+.timelinescreen {
+    height: 100vh !important;
+    padding: 0px !important;
+}
+
 
 /*Implemented by user*/
 
@@ -81,87 +86,18 @@ main {
     flex: 1 0 auto;
 }
 
-.fullwidth-container {
-    width: 100% !important;
-    margin-left: 0px !important;
-    margin-right: 0px !important;
-    padding: 0px !important;
-}
-
 .fullscreen-container {
     height: 100vh !important;
-    width: 100% !important;
     margin: 0px !important;
-    max-width: 100% !important;
+    margin-right: 300px !important;
 }
 
-.bottombar {
-    position: absolute !important;
-    bottom: 0px !important;
-    height: 15vh !important;
-    z-index: 1 !important;
+li .switch, .switch * {
+  float: right;
+  top: 18px;
 }
 
-.bottombar .row .bottombar .row .col {
-    margin: 0px;
-    padding: 0px;
-}
-
-.sidebar {
-    position: absolute !important;
-    height: 100% !important;
-    right: 0px !important;
-    z-index: 2 !important;
-}
-
-.timelinescreen {
-    height: 85vh !important;
-    padding: 0px !important;
-}
-
-@media only screen and (max-width: 600px) {
-    .centerblock {
-
-        position: absolute;
-        width: 85%;
-        left: 7.5%;
-        top: 50%;
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
-        -webkit-transform: translateX(-50%);
-        transform: translateX(-50%);
-        -webkit-transform: translateY(-50%);
-        transform: translateY(-50%);
-    }
-}
-
-@media only screen and (max-width: 992px) {
-    .centerblock {
-
-        position: absolute;
-        width: 70%;
-        left: 15%;
-        top: 50%;
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
-        -webkit-transform: translateX(-50%);
-        transform: translateX(-50%);
-        -webkit-transform: translateY(-50%);
-        transform: translateY(-50%);
-    }
-}
-
-@media only screen and (min-width: 993px) {
-    .centerblock {
-        position: absolute;
-        width: 35%;
-        left: 32.5%;
-        top: 50%;
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
-        -webkit-transform: translateX(-50%);
-        transform: translateX(-50%);
-        -webkit-transform: translateY(-50%);
-        transform: translateY(-50%);
-    }
+.bottom-align {
+  display: inline-block;
+  vertical-align: bottom;
 }
