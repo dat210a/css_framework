@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Parallax Template - Materialize</title>
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+    <div class="" id="sidenavCalender">
+        <div class="row">
+            <div class="col m3 offset-m1 z-depth-3 " id="eventDisplay">
+                <div class="row red darken-2 z-depth-1 ">
+                    <div class="col s12 ">
+                        <h4 class="left-align grey-text text-lighten-5 ">Event name</h4>
+
+                        <span class="grey-text text-lighten-1">Created by: Person X</span>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col s12 ">
+                        <span class="infotitle "><strong>Group</strong></span>
+                        <br>
+                        <span>Home</span>
+                        
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col s12 ">
+                        <span class="infotitle "><strong>Date</strong></span>
+                        <br>
+                        <span>20/04/17 - 23/04/17</span>
+                        <br>
+                        <span class="sub ">Repeats yearly until 2019</span>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col s12 ">
+                        <span class="infotitle "><strong>Location</strong></span>
+                        <br>
+                        <span>Somewhere</span>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col s12 ">
+                        <span class="infotitle "><strong>Notifications</strong></span>
+                        <br>
+                        <span>1 week in advance</span>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col s12 ">
+                        <span class="infotitle "><strong>Participators</strong></span>
+                        <ul>
+                        	<li>Person 1</li>
+                        	<li>Person 2</li>
+                        	<li>Person 3</li>
+                        	<li><a href=" ">See more</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col s12 ">
+                        <span class="infotitle "><strong>Notes</strong></span>
+                        <br>
+                        <span>Don't forget to..</span>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col s12 ">
+                        <span class="infotitle "><strong>Attachments</strong></span>
+                        <br>
+                        <span>None</span>
+                    </div>
+                </div>
+                
+                <a class="btn-floating btn-large waves-effect waves-light red right "><i class="material-icons ">edit</i></a>
+
+            </div>
+
+            <!-- 
+			EDIT FORM
+             -->
+
+            <div class="col m3 offset-m1 z-depth-3" id="eventEdit">
+            	<form action="#">
+            		<div class="row accentblue-medium z-depth-1 ">
+                    <div class="col s12 ">
+                        <h4 class="left-align grey-text text-lighten-5 ">Edit event</h4>
+                    </div>
+                </div>
+                <div class="row  ">
+                	<br>
+                    <div class="col s12 input-field">
+                    	<input value="Event name" id="first_name2" type="text">
+     			 <label for="first_name2">Name of event</label>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="input-field col s12">
+					    
+					    <select>
+					      <option value="" disabled selected>Select group</option>
+					      <option value="1">Option 1</option>
+					      <option value="2">Option 2</option>
+					      <option value="3">Option 3</option>
+					    </select>
+					    <label>Group</label>
+					  </div>
+                </div>
+                <div class="row ">
+                    <div class="col s12 ">
+                    	<label>Start date</label>
+                        <input type="text" class="datepicker" value="20 April, 2017">
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col s12 ">
+                    	<label>End date</label>
+                        <input type="text" class="datepicker" value="23 April, 2017">
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col s12 input-field">
+                	<input value="Somewhere" id="first_name2" type="text">
+  					<label class="active" for="first_name2">Location</label>
+                </div>
+                </div>
+                <div class="row ">
+                    <div class="col s2 input-field">
+                    	
+                    	<input value="0" id="first_name2" type="text" class="center">
+                    	<label>Notification</label>
+                    </div>
+                    <div class="col s10 input-field">
+                    	<select>
+                    	  <option value="1">None</option>
+					      <option value="2">Minutes in advance</option>
+					      <option value="3">Hours in advance</option>
+					      <option value="4">Days in advance</option>
+					    </select>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="input-field col s12">
+				    <select multiple>
+				      <option value="1">Person 1</option>
+				      <option value="2">Person 2</option>
+				      <option value="3">Person 3</option>
+				    </select>
+				    <label>Add participants</label>
+				  </div>
+                </div>
+                <div class="row ">
+                    <div class="input-field col s12">
+				    <select multiple>
+				      <option value="1">Person 1</option>
+				      <option value="2">Person 2</option>
+				      <option value="3">Person 3</option>
+				    </select>
+				    <label>Delete participants</label>
+				  </div>
+                </div>
+                <div class="row ">
+                    <div class="input-field col s12">
+			            <textarea id="textarea1" class="materialize-textarea"></textarea>
+			            <label for="textarea1">Notes</label>
+			          </div>
+                </div>
+                <div class="row ">
+                    <div class="file-field input-field col s12">
+				      <div class="btn">
+				        <span>File</span>
+				        <input type="file" multiple>
+				      </div>
+				      <div class="file-path-wrapper">
+				        <input class="file-path validate" type="text" placeholder="Upload one or more files">
+				      </div>
+				    </div>
+                </div>
+                
+                <a class="btn-floating btn-large waves-effect waves-light accentblue-medium right "><i class="material-icons ">done</i></a>
+
+            </form>
+            </div>
+           
+        </div>
+    </div>
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js "></script>
+    <script src="js/materialize.js "></script>
+    <script src="js/init.js "></script>
+</body>
+
+</html>
